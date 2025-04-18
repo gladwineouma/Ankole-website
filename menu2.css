@@ -1,0 +1,156 @@
+.menu2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#extra{
+    margin-left: 1cm;   
+}
+.left-menu{
+    position: relative;
+   margin-left: 50%;
+    color: white;
+    background-color: black;
+    width: 50%;
+    
+}
+.breakfast{
+    display: flex;
+    gap: 9cm;
+    
+}
+
+.kilimani-img{
+
+    background-image:url(Images/image.png);
+    width: 1098px;
+    background-size: cover;
+    height: 27cm;
+    text-align: center;
+    position: fixed;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    margin-top: 8cm;
+    color: orangered;
+}
+#menu{
+    color: white;
+    position: relative;
+    top: 7cm;
+    font-size: 30px;
+}
+#big{
+    display: flex;
+    margin-left: 1cm;
+}
+
+#hash{
+    display: flex;
+    gap: 9cm;
+    margin-left: 1cm;
+   
+}
+
+#ranch{
+    display: flex;
+    gap: 7.5cm;
+    margin-left: 1cm;
+}
+
+#crepe{
+    display: flex;
+    gap: 7.5cm;
+    margin-left: 1cm;
+}
+
+#omlette{
+    display: flex;
+    gap: 7.5cm;
+    margin-left: 1cm;
+}
+
+.list{
+    display: flex;
+    gap: 7.5cm; 
+}
+
+#type{
+    display: flex;
+    gap: 7.5cm;    
+}
+.soup{
+    display: flex;
+    gap: 7.5cm;    
+}
+.food{
+    margin-left: 1cm;
+}
+
+.beef{
+    display: flex;
+    gap: 7.5cm;   
+}
+
+#platter{
+    display: flex; 
+    gap: 5cm;
+}
+.dessert{
+    display: flex;
+    gap: 10cm;
+}
+
+nav{
+    
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    margin-left: 1cm;
+   
+
+  
+  }
+  .nav ul{
+    background-color: black;
+    border-radius: 50px;
+    width: 20cm;
+    height: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 1cm;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin-top: -8cm;
+    padding: 2%;
+    position: relative;
+    overflow: visible;
+    
+  }
+  nav ul li a{
+    color: white;
+  }
+
+
+  .Reservation{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    width: 5cm;
+    height: 1.5cm;
+    border-radius: 35px;
+  }
+
+  .bull{
+    margin-left: 17cm;
+
+  }
+
+
+

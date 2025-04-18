@@ -1,0 +1,92 @@
+body{
+    background-image: url(Images/contact.jpg);
+
+}
+
+
+
+.contacts{
+    
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 2cm;
+    /* background: no-repeat; */
+    justify-content: center;
+    margin-top: 3cm;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.kitisuru{
+
+    border: solid 2px;
+    border-color: white 5px;
+    width: fit-content;
+    height: 9cm;
+    font-family:'Times New Roman';
+    font-size: 20px;
+    
+    
+}
+
+.kilimani{
+    border: solid 2px;
+    border-color: white 5px;
+    width: fit-content;
+    height: 8cm;
+    font-family:'Times New Roman';
+    font-size: 20px;
+    
+}
+#bull{
+   width: 5cm;
+   height: 5cm;
+   margin-left: 20cm;
+   margin-top: 2cm;
+    
+}
+nav{
+    
+    
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    margin-left: 400px;
+   
+
+  
+  }
+  .nav ul{
+    background-color: black;
+    border-radius: 50px;
+    width: 17cm;
+    height: 2px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 1cm;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin-top: 14cm;
+    padding: 2%;
+    position: absolute;
+  }
+  nav ul li a{
+    color: white;
+  }
+
+
+  .Reservation{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    width: 5cm;
+    height: 1.5cm;
+    border-radius: 35px;
+  }
+

@@ -1,0 +1,87 @@
+body{
+    background-image: url(Images/ankole\ welcome.jpg);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+
+
+#tukatike{
+color: orangered;   
+font-size: 48px; 
+margin-left: 10.5cm;
+margin-top: 10cm;
+}
+
+#live{
+    color: white;
+    margin-left: 12cm;
+   
+}
+
+#logo{
+    margin-top: -15cm;
+    margin-left: 14cm;
+    margin-bottom: 6cm;
+    width: 6cm;
+    height: 6cm;
+}
+.fadhilee{
+    display: flex;
+    gap: 2.5cm;
+    
+}
+p{
+    color: orangered;
+    font-size: 40px;
+}
+
+nav{
+    
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    margin-left: 400px;
+   
+
+  
+  }
+  .nav ul{
+    background-color: black;
+    border-radius: 50px;
+    width: 20cm;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 1cm;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin-top: 10cm;
+    padding: 2%;
+  }
+  nav ul li a{
+    color: white;
+  }
+
+
+  .Reservation{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    width: 5cm;
+    height: 1.5cm;
+    border-radius: 35px;
+  }
+
+  .bull{
+    margin-left: 17cm;
+
+  }
+
+
+

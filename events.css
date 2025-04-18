@@ -1,0 +1,101 @@
+p{
+    color: white;
+
+}
+.accra{
+    background-image: url(Images/accra.jpg);
+    width: 33.33%;
+    height: 24cm;
+    text-align: center;
+}
+
+.nairobi{
+  background-image: url(Images/kilimani.jpg);
+    width: 33.33%;
+    height: 24cm;
+    background-repeat: no-repeat;
+    text-align: center;
+
+
+}
+
+.zanzibar{
+    background-image: url(Images/zanzibar.jpg);
+    width: 33.33%;
+    height: 24cm;
+    text-align: center;
+}
+
+.events{
+    display: flex;
+    width: 100%;
+
+}
+
+#pavillion{
+    color: grey;
+    font-size: 20px;
+    margin-top: 10cm;
+}
+#content{
+    color: orange;
+}
+
+#cities{
+    color: white;
+}
+
+#information{
+    color: white;
+}
+
+#logo{
+    position: absolute;
+    width: 4cm;
+    height: 4cm;
+    margin-left: 3cm;
+}
+nav{
+    
+    
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    margin-left: 400px;
+   
+
+  
+  }
+  .nav ul{
+    background-color: black;
+    border-radius: 50px;
+    width: 17cm;
+    height: 2px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 1cm;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin-top: -3cm;
+    padding: 2%;
+    position: absolute;
+  }
+  nav ul li a{
+    color: white;
+  }
+
+
+  .Reservation{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    width: 5cm;
+    height: 1.5cm;
+    border-radius: 35px;
+  }
+
+

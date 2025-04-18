@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    /* background-color: black;
+    border-radius: 40px;
+    width: 50%;
+    height: 50px;
+    color: white; */
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    margin-left: 400px;
+   
+
+  
+  }
+  .nav ul{
+    background-color: black;
+    border-radius: 50px;
+    width: 51%;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 1cm;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin-top: 10cm;
+    padding: 2%;
+  }
+  nav ul li a{
+    color: white;
+  }
+
+
+  .Reservation{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    width: 5cm;
+    height: 1.5cm;
+    border-radius: 35px;
+  }
+
+  .bull{
+    margin-left: 17cm;
+
+  }

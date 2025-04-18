@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+}
+
+
+.reservation{
+    display: flex;
+    gap: 2cm;
+    color: whitesmoke;
+}
+#input{
+ width:20cm ;
+ height: 1.5cm;
+ background-color: black;
+ color: whitesmoke;
+}
+.image img{
+    height: 23cm;
+    width: 23cm;
+}
+#karibu{
+    color: white;
+    font-size: 20px;
+    margin-top: -40%;
+    margin-left: 10cm;
+}
+#reservation{
+    color: orangered;
+    margin-top: -15%;
+    margin-left: 10cm;
+
+}
+
+
+
+#submit{
+    width: 20cm;
+    height: 1.5cm;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+nav{
+   
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    
+   
+
+  
+  }
+  .nav ul{
+    background-color: black;
+    border-radius: 50px;
+    width: 18cm;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 1cm;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin-top: 7cm;
+    padding: 2%;
+  }
+  nav ul li a{
+    color: white;
+  }
+
+
+  .Reservation{
+    background-color: grey;
+    border-radius: 35px;
+    width: 5cm;
+    height: 1cm;
+    text-align: center;
+  }
+  
+  

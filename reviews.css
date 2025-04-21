@@ -2,14 +2,11 @@ body {
     background-color: black;
     color: white;
     text-align: center;
+    margin: 0;
 }
 
 nav{
-    /* background-color: black;
-    border-radius: 40px;
-    width: 50%;
-    height: 50px;
-    color: white; */
+    
     text-decoration: none;
     display: flex;
     justify-content: space-between;

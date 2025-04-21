@@ -1,90 +1,234 @@
-body{
-    color: white;
-    text-align: center;
-    display: flex;
+body {
+  color: white;
+  text-align: center;
+  display: flex;
+  margin: 0;
 
-    
-}
-
-.kitusuru{
-    background-image:url(Images/kitisuru1.jpg) ;
-        width: 50%;
-    height: 900px;
-}
-
-.kilimani{
-    background-image: url(Images/kilimani.jpg);
-    width: 50%;
-    height: 900px;
-}
-
-#orange{
-    color: rgb(255, 94, 0);
-    text-align: center;
-    margin-top: 6cm;
-    font-size: 40px;
-}
-
-#location{
-    text-align: center;
-    margin-top: 6cm;
-}
-#bull{
-    margin-top: -9cm;
-    width: 25%;
-    margin-left: 21.5cm;
-    overflow: visible;
-    margin-right: 19px;
-    left: 6px;
-    position: absolute;
-    width: 5cm;
-    height: 5cm;
-    
 
 }
 
-nav{
-    
-    
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    color: white;
-    margin-left: 400px;
-   
+.kitusuru {
+  background-image: url(Images/kitisuru1.jpg);
+  width: 50%;
+  height: 900px;
+}
 
-  
-  }
-  .nav ul{
-    background-color: black;
-    border-radius: 50px;
-    width: 17cm;
-    height: 2px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    gap: 1cm;
-    text-decoration: none;
-    list-style-type: none;
-    color: white;
-    margin-top: 5cm;
-    padding: 2%;
-    position: absolute;
-  }
-  nav ul li a{
-    color: white;
-  }
+.kitusuru a {
+  text-decoration: none;
+  color: white;
+}
 
 
-  .Reservation{
-    background-color: gray;
-    color: white;
-    text-align: center;
-    width: 5cm;
-    height: 1.5cm;
-    border-radius: 35px;
-  }
+.kilimani {
+  background-image: url(Images/kilimani.jpg);
+  width: 50%;
+  height: 900px;
+}
 
+.kilimani a {
+  text-decoration: none;
+  color: white;
+}
+
+
+#orange {
+  color: rgb(255, 94, 0);
+  text-align: center;
+  margin-top: 6cm;
+  font-size: 40px;
+}
+
+#location {
+  text-align: center;
+  margin-top: 6cm;
+}
+
+#bull {
+  margin-top: -9cm;
+  width: 25%;
+  margin-left: 21.5cm;
+  overflow: visible;
+  margin-right: 19px;
+  left: 6px;
+  position: absolute;
+  width: 5cm;
+  height: 5cm;
+
+
+}
+
+nav {
+
+
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: white;
+  margin-left: 400px;
+  position: fixed;
+
+
+
+}
+
+.nav ul {
+  background-color: black;
+  border-radius: 50px;
+  width: 22cm;
+  height: 2px;
+  color: white;
+  display: flex;
+  gap: 2.3cm;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  margin-top: 5cm;
+  padding: 2%;
+  position: absolute;
  
+  
+  position: fixed;
+}
+
+nav ul li a {
+  color: white;
+  position: fixed;
+}
+
+
+.Reservation {
+  background-color: gray;
+  color: white;
+  width: 3cm;
+  height: 1cm;
+  border-radius: 25px;
+  position: absolute;
+  margin-left: 0.2cm;
+  margin-top: -0.2cm;
+  
+  
+}
+     /* media query */
+      @media screen and (min-width:320px)and (max-width:600px){  
+      body {
+        color: white;
+        text-align: center;
+        display: block;
+        position: relative;
+        justify-content: center;        
+      
+      
+      
+      }
+      
+      .kitusuru {
+        background-image: url(Images/kitisuru1.jpg);
+        width: 600px;
+        height: 900px;
+        max-width: 100%;
+      }
+      
+      .kitusuru a {
+        color: white;
+      }
+      
+      
+      .kilimani {
+        background-image: url(Images/kilimani.jpg);
+        width: 600px;
+        height: 900px;
+        max-width: 100%;
+        position: absolute;
+      }
+      
+      .kilimani a {
+        text-decoration: none;
+        color: white;
+      }
+      
+      
+      #orange {
+        color: rgb(255, 94, 0);
+        text-align: center;
+        margin-top: 6px;
+        font-size: 40px;
+        position: relative;
+        top: 200px;
+      }
+      
+      #location {
+        text-align: center;
+        
+      }
+      .home{
+        margin-bottom: 100px;
+      }
+      
+      #bull{
+        position: absolute;
+        justify-content: center;
+        left: -670px;
+        width: 3cm;
+       
+      
+      }
+      
+      nav {
+      
+      
+        text-decoration: none;
+        display: block;
+        object-fit: contain;
+        text-decoration: none;
+        color: white;
+        position: fixed;
+        overflow: visible;
+        
+      
+      
+      
+      }
+      
+      .nav ul {
+        background-color: greenyellow;
+        border-radius: 50px;
+        width: 17px;
+        height: 2px;
+        color: orangered;
+        display: flex;
+        justify-content: space-between;
+        gap: 1cm;
+        text-decoration: none;
+        object-fit: contain;
+        list-style-type: none;
+        color: white;
+        margin-top: 5cm;
+        padding: 2%;
+        position: absolute;
+        position: fixed;
+      }
+      
+      nav ul li a {
+        color: white;
+        object-fit: contain;
+        position: fixed;
+      }
+      
+      
+      .Reservation {
+        background-color: gray;
+        color: white;
+        text-align: center;
+        width: 5cm;
+        height: 1.5cm;
+        border-radius: 35px;
+        position: fixed;
+      }
+          
+      
+      
+     
+     
+     }
 

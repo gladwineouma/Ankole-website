@@ -1,29 +1,36 @@
-.menu2{
+.menu2 {
     display: flex;
     justify-content: space-between;
 }
 
 
-#extra{
-    margin-left: 1cm;   
+#extra {
+    margin-left: 1cm;
 }
-.left-menu{
+
+.left-menu {
     position: relative;
-   margin-left: 50%;
+    margin-left: 50%;
     color: white;
     background-color: black;
     width: 50%;
-    
+    overflow-x: hidden;
+
 }
-.breakfast{
+
+.breakfast {
     display: flex;
     gap: 9cm;
-    
+
 }
 
-.kilimani-img{
+body {
+    margin: 0;
+}
 
-    background-image:url(Images/image.png);
+.kilimani-img {
+
+    background-image: url(Images/image.png);
     width: 1098px;
     background-size: cover;
     height: 27cm;
@@ -31,91 +38,119 @@
     position: fixed;
     background-repeat: no-repeat;
 }
-h1{
+
+h1 {
     text-align: center;
     margin-top: 8cm;
     color: orangered;
 }
-#menu{
+
+#menu {
     color: white;
     position: relative;
     top: 7cm;
     font-size: 30px;
 }
-#big{
+
+#big {
     display: flex;
-    margin-left: 1cm;
+    position: relative;
+    left: 1cm;
+    justify-content: space-around;
 }
 
-#hash{
+#hash {
     display: flex;
-    gap: 9cm;
-    margin-left: 1cm;
-   
+    position: relative;
+    left: 1cm;
+    justify-content: space-around;
+    /* gap: -2%; */
+    
+    
+
 }
 
-#ranch{
+#ranch {
+    display: flex;
+    position: relative;
+    left: 1cm;
+    justify-content: space-around;
+}
+
+#crepe {
+    display: flex;
+    position: relative;
+    left: 1cm;
+    justify-content: space-around
+}
+
+#omlette {
+    display: flex;
+    position: relative;
+    left: 1cm;
+    justify-content: space-around;   
+}
+
+.list {
     display: flex;
     gap: 7.5cm;
-    margin-left: 1cm;
 }
 
-#crepe{
+#type {
     display: flex;
     gap: 7.5cm;
+}
+
+.soup {
+    display: flex;
+    justify-content: space-around;
+}
+
+.food {
     margin-left: 1cm;
 }
 
-#omlette{
+.beef {
     display: flex;
-    gap: 7.5cm;
-    margin-left: 1cm;
+    position: relative;
+    left: 1cm;
+    justify-content: space-around;  
 }
 
-.list{
+#platter {
     display: flex;
-    gap: 7.5cm; 
-}
-
-#type{
-    display: flex;
-    gap: 7.5cm;    
-}
-.soup{
-    display: flex;
-    gap: 7.5cm;    
-}
-.food{
-    margin-left: 1cm;
-}
-
-.beef{
-    display: flex;
-    gap: 7.5cm;   
-}
-
-#platter{
-    display: flex; 
     gap: 5cm;
 }
-.dessert{
+
+.dessert {
     display: flex;
-    gap: 10cm;
+    position: relative;
+    left: 1cm;
+    justify-content: space-around;  
+    gap: 1cm;   
 }
 
-nav{
-    
+#logo {
+    width: 2cm;
+    height: 2cm;
+}
+
+nav {
+
     text-decoration: none;
     display: flex;
     justify-content: space-between;
     text-decoration: none;
     color: white;
     margin-left: 1cm;
-   
+    /* position: fixed;
+    overflow: visible; */
 
-  
-  }
-  .nav ul{
+
+
+}
+
+.nav ul {
     background-color: black;
     border-radius: 50px;
     width: 20cm;
@@ -131,26 +166,44 @@ nav{
     padding: 2%;
     position: relative;
     overflow: visible;
-    
-  }
-  nav ul li a{
+
+}
+
+nav ul li a {
     color: white;
-  }
+}
 
 
-  .Reservation{
+.Reservation {
     background-color: gray;
     color: white;
     text-align: center;
     width: 5cm;
     height: 1.5cm;
     border-radius: 35px;
-  }
+}
 
-  .bull{
+.bull {
     margin-left: 17cm;
 
-  }
+}
 
+.cofee{
+    color: orangered;
+    display: flex;
+}
 
+.coffee li{
+    display: flex;
+    color: orangered;
+}
+.drinks ul{
+list-style: none;
+}
+.drinks-prices ul{
+    list-style: none;
+}
 
+.list ul{
+    list-style: none;
+}

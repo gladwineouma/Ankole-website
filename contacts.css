@@ -1,5 +1,6 @@
 body{
     background-image: url(Images/contact.jpg);
+    margin: 0;
 
 }
 
@@ -12,11 +13,11 @@ body{
     background-size: cover;
     display: flex;
     gap: 2cm;
-    /* background: no-repeat; */
     justify-content: center;
     margin-top: 3cm;
     font-size: 20px;
     font-family: sans-serif;
+    text-decoration: none;
 }
 
 .kitisuru{
@@ -27,8 +28,15 @@ body{
     height: 9cm;
     font-family:'Times New Roman';
     font-size: 20px;
-    
-    
+  }
+.kilimani a{
+  text-decoration: none;
+  color: white; 
+}
+
+.kitisuru a{
+  text-decoration: none;
+  color: white;
 }
 
 .kilimani{
@@ -38,6 +46,7 @@ body{
     height: 8cm;
     font-family:'Times New Roman';
     font-size: 20px;
+    text-decoration: none;
     
 }
 #bull{
@@ -90,3 +99,120 @@ nav{
     border-radius: 35px;
   }
 
+  @media only screen and (max-width:600px){
+
+    body{
+      background-image: url(Images/contact.jpg);
+      margin: 0;
+      max-width: 600px;
+      background-size: cover;
+
+  
+  }
+  
+  
+  
+  .contacts{
+      
+      color: white;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: block;
+      gap: 2cm;
+      justify-content: center;
+      margin-top: 3cm;
+      font-size: 20px;
+      font-family: sans-serif;
+      text-decoration: none;
+  }
+  
+  .kitisuru{
+  
+      border: solid 1px;
+      border-color: white 5px;
+      width: fit-content;
+      font-family:'Times New Roman';
+      font-size: 15px;
+      height: fit-content;
+      position: relative;
+      top: -30vw;
+    }
+  .kilimani a{
+    text-decoration: none;
+    color: white; 
+  }
+  
+  .kitisuru a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .kilimani{
+     
+      border: solid 1px;
+      border-color: white 5px;
+      width: fit-content;
+      font-family:'Times New Roman';
+      font-size: 15px;
+      height: fit-content;
+      position: relative;
+      top: -26vw;
+      
+  }
+  #bull{
+     width: 3cm;
+     height: 3cm;
+     position: relative;
+     left: -160vw;
+     top: -5vw;
+     
+      
+  }
+  nav{
+      
+      
+      text-decoration: none;
+      display: flex;
+      justify-content: space-between;
+      text-decoration: none;
+      color: white;
+      position: relative;
+      left: -120vw;
+      top: -23vw;
+     
+  
+    
+    }
+    .nav ul{
+      background-color: black;
+      border-radius: 50px;
+      width: 20vw;
+      height: 2px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      gap: 1cm;
+      text-decoration: none;
+      list-style-type: none;
+      color: white;
+      margin-top: 14cm;
+      padding: 2%;
+      position: absolute;
+    }
+    nav ul li a{
+      color: white;
+    }
+  
+  
+    .Reservation{
+      background-color: gray;
+      color: white;
+      text-align: center;
+      width: 5cm;
+      height: 1.5cm;
+      border-radius: 35px;
+    }
+  
+   
+
+  }

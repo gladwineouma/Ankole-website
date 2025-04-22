@@ -135,6 +135,7 @@ body{
      .home {
       
         background-image: url(Images/ankole\ welcome.jpg);
+        background-size: cover;
         
     
         width: 100%;
@@ -147,9 +148,9 @@ body{
       color: grey;
       position: absolute;
       top: 400px;
-      font-size: 130px;
+      font-size: 2rem;
       content: "welcome";
-      margin-left: 17cm;
+      margin-left: 3cm;
       font-family: 'Times New Roman';
       
       
@@ -209,11 +210,12 @@ body{
         
         text-decoration: none;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        gap: 1px;
         text-decoration: none;
         color: white;
         position: relative;
-        right: -20vw;
+        right: 15cm;
        
     
       
@@ -230,7 +232,7 @@ body{
         text-decoration: none;
         list-style-type: none;
         color: white;
-        margin-top: 10cm;
+        bottom: 9vh;
         padding: 2%;
       }
       nav ul li a{

@@ -58,3 +58,31 @@ nav{
     margin-left: 17cm;
 
   }
+
+  #right-angle{
+    color: aliceblue;
+    right: -1.5vw;
+    top: 2cm;
+    position: absolute;
+  }
+  #left-angle{
+    color: aliceblue;
+    position: absolute;
+    left: -1cm;
+    top: 1cm;
+  }
+  #right-quote{
+    color: orangered;
+    position: absolute;
+    left: 38vw;
+    top: 4cm;
+    font-size: 200%;
+  }
+  #left-quote{
+    color: orangered;
+    position: absolute;
+    left: -3vw;
+    top: -3.5vh;
+    font-size: 200%;
+
+  }

@@ -4,6 +4,14 @@ body {
     text-align: center;
     margin: 0;
 }
+.reviews{
+  position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+  
+  
+}
 
 nav{
     
@@ -29,7 +37,7 @@ nav{
     text-decoration: none;
     list-style-type: none;
     color: white;
-    margin-top: 10cm;
+    margin-top: 80vh;
     padding: 2%;
   }
   nav ul li a{
